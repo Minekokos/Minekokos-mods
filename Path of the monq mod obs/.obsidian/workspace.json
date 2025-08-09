@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mod Core.md",
+                "file": "Monk class.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mod Core"
+              "title": "Monk class"
             }
           }
         ]
@@ -188,13 +188,13 @@
   },
   "active": "76f444de0e1c3226",
   "lastOpenFiles": [
+    "Mechanics.md",
+    "Mod Core.md",
     "Items.md",
     "Lore.md",
     "Bosses.md",
     "Monk class.md",
-    "Mod Core.md",
     "NPCs.md",
-    "Mechanics.md",
     "images",
     "images/Pasted image 20250621172625.png"
   ]
