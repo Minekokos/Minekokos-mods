@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rc7NcjESnyjCWqZa/h8a8aJDLANafFiECepWSDugUlGQkSl+sr8GsRWe0PPS8fAO2XEgNCiatx8xvfNVPi1EXg==",
+  "success": true,
+  "projectFilePath": "/home/minekokos/.local/share/Terraria/tModLoader/ModSources/PathOfTheMonq/PathOfTheMonq.csproj",
+  "expectedPackageFiles": [
+    "/home/minekokos/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

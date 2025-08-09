@@ -1,0 +1,13 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	ZenCore: {
+		DisplayName: Zen Core
+		Tooltip: The gateway to path of infinite zen
+	}
+
+	StellarSword: {
+		DisplayName: Stellar Sword
+		Tooltip: Any similarities are purely coincidental and who the hell is Rumi?
+	}
+}
