@@ -1,3 +1,0 @@
-displayName = SparkPunk
-author = Minekokos
-version = 0.2
