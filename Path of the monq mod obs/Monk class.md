@@ -1,5 +1,6 @@
 ##### koncept:
 **Zen bar**, kiery drastycki owliwniuje staty grocza
+idk nazew jesi Monk damage nebo Zen damage (ale asi zen)
 
 ##### bar ubywo za tychtu podminek:
 - czas

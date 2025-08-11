@@ -1,12 +1,16 @@
 ### The first monq 
-- Final boss
+- Final boss - post-moon lord
 - Michal Noga reference
+- poczateczni [[NPCs | Town NPC]], kiery beje słózyć jako guide ku modu, na kóniec beje grocz nucóny sie mu postawić
+- bawiym sie z myszlenkóm, ze by egzystowała pacifist cesta, kaj beje mozne z nim nie bojować ale idk jak to wymyśleć
+- coded names: Mike, Michael
 
 ### Doosh-Han 
 - pracowni nazev 
 - Duklock reference
 - flank/warrior class
 - cpt Cyka nebo The Merchant of Death - 2nd phase
+- napadło mnie, ze by mioł horror Dukok forme na getfixedboi (zdvihni mu)
 
 ### Minotaur summoner
 - pracowni nazew
@@ -32,3 +36,8 @@
 
 ### Agraelus
 - idk nazew
+
+### dalsze warianty
+- Herdyn
+- Mullersie
+- vvudy

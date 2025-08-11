@@ -1,11 +1,11 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework; //needs sprite ---------------
 
 namespace PathOfTheMonq.Items.Weapons
 {
-    public class StellarSword : ModItem
+    public class StellarGlaive : ModItem
     {
         public override void SetDefaults()
         {
@@ -13,7 +13,8 @@ namespace PathOfTheMonq.Items.Weapons
             Item.height = 18;
             Item.DamageType = DamageClass.Melee;
             Item.damage = 25;
-            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useStyle = ItemUseStyleID.Shoot;
+            Items.staff[spear] = true; //potential error - setting item animation to spear
             Item.useAnimation = 10;
             Item.autoReuse = true;
             Item.useTurn = true;

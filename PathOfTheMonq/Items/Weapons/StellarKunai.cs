@@ -1,11 +1,11 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework; //needs sprite--------------
 
 namespace PathOfTheMonq.Items.Weapons
 {
-    public class StellarSword : ModItem
+    public class StellarKunai : ModItem
     {
         public override void SetDefaults()
         {
@@ -13,7 +13,8 @@ namespace PathOfTheMonq.Items.Weapons
             Item.height = 18;
             Item.DamageType = DamageClass.Melee;
             Item.damage = 25;
-            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useStyle = ItemUseStyleID.Shoot;
+            Item.staff[staff] = true; //potential error - animation of throwing weapon
             Item.useAnimation = 10;
             Item.autoReuse = true;
             Item.useTurn = true;
