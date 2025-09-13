@@ -5,6 +5,12 @@
 
   <!-- Include all .cs files in all folders -->
   <ItemGroup>
+    <Reference Include="Terraria">
+      <HintPath>$(tMLPath)\tModLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Terraria.ModLoader">
+      <HintPath>$(tMLPath)\tModLoader.dll</HintPath>
+    </Reference>
     <Compile Include="**\*.cs" />
   </ItemGroup>
 

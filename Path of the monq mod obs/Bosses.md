@@ -40,4 +40,7 @@
 ### dalsze warianty
 - Herdyn
 - Mullersie
-- vvudy
+
+### Han's shadow
+- Roman/Vvudy reference
+- *jaksi alkohol reference?*

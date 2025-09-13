@@ -6,7 +6,7 @@
       {
         "id": "cd90c363d58eeaa6",
         "type": "tabs",
-        "dimension": 62.133072407045006,
+        "dimension": 62.133072407045,
         "children": [
           {
             "id": "76f444de0e1c3226",
@@ -190,11 +190,11 @@
   "active": "76f444de0e1c3226",
   "lastOpenFiles": [
     "Mechanics.md",
+    "Bosses.md",
+    "Monk class.md",
     "Mod Core.md",
     "Items.md",
     "Lore.md",
-    "Bosses.md",
-    "Monk class.md",
     "NPCs.md",
     "images",
     "images/Pasted image 20250621172625.png"
