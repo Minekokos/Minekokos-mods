@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Import tModLoader mod properties -->
+  <Import Project="..\tModLoader.targets" />
+
+  <!-- Include all .cs files in all folders -->
+  <ItemGroup>
+    <Compile Include="**\*.cs" />
+  </ItemGroup>
+
+</Project>

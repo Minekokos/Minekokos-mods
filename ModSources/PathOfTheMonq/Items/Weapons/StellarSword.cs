@@ -1,0 +1,40 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace PathOfTheMonq.Items.Weapons
+{
+    public class StellarSword : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 18;
+            Item.height = 18;
+            Item.DamageType = DamageClass.Melee;
+            Item.damage = 25;
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useAnimation = 10;
+            Item.autoReuse = true;
+            Item.useTurn = true;
+            Item.rare = ItemRarityID.Cyan;
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            var LineToChange = tooltips.FirstOrDefault(x => x.Name=="Damage" && x.Mod == "Terraria");
+            if (LineToChange != null)
+            {
+                string[] split = LineToChange.Text.Split(" "); //potential error - wrong apostrophes
+                LineToChange.Text = split.First()+" zen " + split.Last();
+            }
+        }
+
+        public override void ModifyWeaponDamage(Player player, ref StatModifier damage)
+        {
+            damage += player.GetModPlayer<GlobalPlayer>().ZenDamage;
+        }
+    }
+}

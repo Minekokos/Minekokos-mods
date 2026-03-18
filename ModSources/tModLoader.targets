@@ -1,0 +1,3 @@
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="/mnt/73e38def-ed74-43cb-a5ca-37ba36583a0e/SteamLibrary/steamapps/common/tModLoader/tMLMod.targets" />
+</Project>
